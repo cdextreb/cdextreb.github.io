@@ -3,8 +3,34 @@ body {
   font-weight: 300;
   background-image: url(linedpaper.png);
   background-repeat: repeat;
+  background-color: green;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1{
+	color: red;
+	font-family: 'arial';
+	font-size: 25;
+}
+h4{
+	color: green;
+	font-weight: bold;
+}
+#summary{
+	color: orange;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*se analiza desde arriba hasta abajo para el order de prioridades*/
+
+.unicorns{
+	color:purple;
+	border-color: red;
+	border-style: solid;
+	border-width: 4px;
+	text-align: center;
+
 }
