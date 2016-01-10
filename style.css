@@ -10,16 +10,27 @@ body {
   margin: 20px auto 20px auto;
 }
 h1{
-	color: red;
+	color: purple;
 	font-family: 'arial';
 	font-size: 25;
+
 }
 h4{
-	color: green;
+	color: purple;
 	font-weight: bold;
 }
+
+h5{
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 #summary{
-	color: orange;
+	color: pruple;
+	border-color: black;
+	border-style: solid;	
+	border-width: 4px;
 	text-align: center;
 	text-decoration: underline;
 }
@@ -28,9 +39,83 @@ h4{
 
 .unicorns{
 	color:purple;
-	border-color: red;
-	border-style: solid;
+	border-color: black;
+	border-style: solid;	
 	border-width: 4px;
 	text-align: center;
+	text-decoration: underline;
 
 }
+
+#foot {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	height: 50px;
+	padding-left: 450px;
+	padding-top: 10px;
+	background-color: #000;
+	clear: both;
+	margin-bottom: 0px;
+}
+
+#head {
+	background-color: black;
+	height: 40px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	padding-left: 450px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #FFF;	
+}
+
+
+
+#head ul {
+  font-family: Verdana;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index:100;
+}
+
+#head ul li{
+  display: block;
+  position: relative;
+  float: left;
+}
+#container #head #menu ul {
+	display: none;
+}
+
+
+
+#container #head #menu li a{
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px 5px 15px;
+  background: black;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+#container #head #menu li a:hover {
+	background: #ffffff; 
+	color:#000
+}
+
+#container #head #menu li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+#container #head #menu li:hover li {
+  float: none;
+  font-size: 11px;
+}
+#container #head #menu ul li:hover a { background: black; }
+#container #head #menu ul li:hover li a:hover { background: black; }
+*/	
