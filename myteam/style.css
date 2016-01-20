@@ -1,0 +1,30 @@
+
+body {
+  color: red;
+}
+
+
+
+.main-nav__menu-item > ul {
+  background-color: #222222;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: #b00203;
+}
+
+.social-bar__mobile-icon--on,
+.social-bar--header {
+  background-color: #b00203;
+}
+
+.footer-top {
+  background-color: #333333;
+}
+
+.footer-bottom {
+  background-color: #474747;
+}
