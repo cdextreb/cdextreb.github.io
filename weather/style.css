@@ -1,0 +1,66 @@
+body {
+  color: white;
+}
+
+
+
+.main-nav__menu-item > ul {
+  background-color: #222222;
+}
+
+a {
+    color: #10bbf1;
+    cursor: pointer;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #40c9f4
+}
+
+a:active {
+    color: #0b97c3
+}
+
+a:focus {
+  color: #b00203;
+}
+
+.social-bar__mobile-icon--on,
+.social-bar--header {
+  background-color: #b00203;
+}
+
+
+
+.wrap {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+
+header{
+	padding: 104px 0;
+    background:url(_img/header.jpg); no-repeat 50% 50%;
+    height: 800px;
+    font: 24px/36px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+footer {
+    background: #324a57;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 90px 0;
+    text-align: center;
+ 
+}
